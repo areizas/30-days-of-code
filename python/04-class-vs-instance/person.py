@@ -2,7 +2,7 @@ class Person:
 
     def __init__(self, initial_age):
         if initial_age<0:
-            print("Age is not valid, age is set to 0.")
+            print("Age is not valid, setting age to to 0.")
             self.age =0
         else:
             self.age = initial_age
